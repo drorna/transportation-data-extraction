@@ -1,0 +1,42 @@
+# --- Secrets (CRITICAL) ---
+.env
+*.key
+*.pem
+
+# --- Caches that contain real data ---
+דוחות/routes_cache.json
+
+# --- Python ---
+.venv/
+פייתון/.venv/
+venv/
+__pycache__/
+פייתון/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- IDE / Editors ---
+.idea/
+פייתון/.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Claude Code local config ---
+.claude/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Excel temp files ---
+~$*.xlsx
+~$*.xls
+
+# --- Logs ---
+*.log
+logs/
